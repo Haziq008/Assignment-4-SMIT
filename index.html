@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            position: relative;
+            
+        }
+        body{
+            background-color: rgb(240,242,245);
+        }
+        input{
+        border-radius: 5px;
+        border-style: solid;
+        padding: 20px;
+        border-color: rgb(225, 225, 225);
+        border-width: 1px;
+
+    }
+    ::placeholder{
+        opacity: 0.8;
+    }
+    input:focus{
+        border-style: solid;
+        box-shadow: 0 0 2px rgb(8,102,255);
+        outline: none;
+        border-color:rgb(8,102,255);
+    }
+    input:focus::placeholder{
+        opacity: 0.5;
+    }
+    button{
+            outline: none;
+            border-radius: 5px;
+            border-width: none;
+            border-style: solid;
+            border-color: rgb(8,102,255);
+            
+        }
+        .box{
+            background-color: white;
+            height: 340px;
+            width: 395px;
+            padding: 9px;
+            border-radius: 8px;
+            position: absolute;
+            top:123px;
+            left: 710px;
+            box-shadow: 0 3px 10px rgb(176, 176, 176);
+            
+        }
+        hr{
+        width: 375px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+<div style="margin-top: 170px;margin-left: 120px;">
+    <div style="font-size: 70px; color: rgb(8,102,255);"><b>facebook</b></div>
+    <span style="font-size: 29px;">Facebook helps you connect and share</span>
+        <div style="font-size: 29px;">with the people in your life.</div>
+</div>
+
+<center>
+    <div class="box">
+    <div>
+        <div style="padding: 7px;"><input class="inp" type="email number" placeholder="Email address or phone number" style=" font-size: large; height: 10px;width: 340px;"></div>
+        <div style="padding: 7px;"><input class="inp" type="password" placeholder="Password" style=" font-size: large; height: 10px;width: 340px;"></div>
+        <div style="padding: 7px;"><button style="background-color: rgb(8,102,255);height: 50px;width: 380px;"><span style="font-size: 21px;font-weight: bold;color: white;">Log in</span></button></div>
+
+        <div style="font-size: 15px;padding: 11px;color: rgb(8,102,255);">Forgotten password?</div>
+        <hr>
+        <div style="padding: 22px;"><button style="border-color: rgb(66,183,42); background-color: rgb(66,183,42);height: 50px;width: 200px;"><span style="font-size: 18px;font-weight: bold;color: white;">Create new account</span></button></div>
+
+    </div>
+    <br><br>
+    <div>
+    <div><b>Create a Page</b> for a celebrity, brand or business.</div>
+</div>
+</div>
+</center>
+
+
+</div>    
+    
+</body>
+</html>
